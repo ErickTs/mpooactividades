@@ -2,8 +2,9 @@ import Foundation
 
 struct miPila {
     var elementos = [Int]()
+    let limite = 9
     mutating func push(elemento: Int) {
-        if count()<9{
+        if count()<limite{
           print("push")
           elementos.append(elemento)
         } else {
