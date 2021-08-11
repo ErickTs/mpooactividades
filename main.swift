@@ -17,19 +17,19 @@ func main(){
   almacen.addProducto(producto: tenisNike, cantidad: 5)
   almacen.addProducto(producto: quesoLaVilla, cantidad: 20)
   
-    quesos.addSubCategory(category: oaxaca)
-    lacteos.addSubCategory(category: quesos)
-    menuPrincipal.addCategory(category: zapatos)
-    menuPrincipal.addCategory(category: lacteos)
+  quesos.addSubCategory(category: oaxaca)
+  lacteos.addSubCategory(category: quesos)
+  menuPrincipal.addCategory(category: zapatos)
+  menuPrincipal.addCategory(category: lacteos)
     
-    quesos.addSubCategory(category: panela)
+  quesos.addSubCategory(category: panela)
 
 
-    menuPrincipal.display()
-    almacen.showProducts()
-    quesoLaVilla.showCategories()
-    print("----------------------")
-    almacen.showProducts(by: panela)
+  menuPrincipal.display()
+  almacen.showProducts()
+  quesoLaVilla.showCategories()
+  print("----------------------")
+  
 }
 
 main()
