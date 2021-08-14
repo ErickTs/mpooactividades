@@ -21,4 +21,3 @@ func ordenamientoGg(miArreglo: inout [Int]) {
 var miArreglo = [4,1,9,0,44,8,6,11,99]
 ordenamientoGg(miArreglo: &miArreglo)
 print(miArreglo)
-//end
