@@ -11,11 +11,9 @@ class Category: CustomStringConvertible{
     self.subCategories = []
   }
     
-    func addSubCategory(category: Category){
-        self.subCategories.append(category)
-    }
+  func addSubCategory(category: Category){
+    self.subCategories.append(category)
+  }
 
-    func showProducts(){
-      
-    }
+    
 }

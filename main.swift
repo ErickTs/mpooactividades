@@ -11,8 +11,8 @@ func main(){
   var panela = Category(name: "Panela")
   var oaxaca = Category(name: "Oaxaca")
 
-  let tenisNike = Producto(nombre: "Nike", precio: 35.0, desc: "Tenis nike azules", categorias:[zapatos, panela] )
-  let quesoLaVilla = Producto(nombre: "Queso la villa", precio: 10.0, desc: "Rico queso", categorias:[panela, oaxaca])
+  var tenisNike = Producto(nombre: "Nike", precio: 35.0, desc: "Tenis nike azules", categorias:[zapatos, panela] )
+  var quesoLaVilla = Producto(nombre: "Queso la villa", precio: 10.0, desc: "Rico queso", categorias:[panela, oaxaca])
 
   almacen.addProducto(producto: tenisNike, cantidad: 5)
   almacen.addProducto(producto: quesoLaVilla, cantidad: 20)
@@ -32,5 +32,4 @@ func main(){
   
 }
 
-main()
 
